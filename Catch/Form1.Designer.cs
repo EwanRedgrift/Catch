@@ -81,7 +81,7 @@
             this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(112, 197);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(363, 144);
+            this.titleLabel.Size = new System.Drawing.Size(363, 251);
             this.titleLabel.TabIndex = 3;
             this.titleLabel.Text = "Press ESC to start";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;

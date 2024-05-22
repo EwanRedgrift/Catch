@@ -382,10 +382,16 @@ namespace Catch
             {
                 titleLabel.Text += "Player 1 wins";
             }
-            else
+            else if (p1FinalScore < p2FinalScore)
             {
                 titleLabel.Text += "Player 2 wins";
             }
+            else
+            {
+                titleLabel.Text += "Tie!";
+            }
+
+            titleLabel.Text += "\n\nPress ESC to restart";
 
             gameOver = true;
             gameTimer.Stop();
